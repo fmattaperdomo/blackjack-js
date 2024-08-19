@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blackjack</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <header class="title">BlackJack</header>
+    <div class="row mt-2">
+        <div id="divButtons" class="col text-center">
+            <button id="btnNew" class="btn btn-danger">New Game</button>
+            <button id="btnAsk" class="btn btn-primary">Request Card</button>
+            <button id="btnStop" class="btn btn-primary">Stop Game</button>    
+        </div>
+
+    </div>
+
+    <div class="row container">
+        <div class="col">
+            <h1>Player 1 - <small>0</small></h1>
+            <div id="divPlayer1Board">
+                
+            </div>
+
+        </div>    
+    </div>
+
+    <div class="row container mt-2">
+        <div class="col">
+            <h1>Player 2 - <small>0</small></h1>
+            <div id="divPlayer2Board">
+
+            </div>
+
+        </div>    
+    </div>
+    <script src="assets/js/underscore-min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
